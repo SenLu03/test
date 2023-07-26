@@ -1,0 +1,133 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Container(
+          padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              header(),
+              const imageAndName(),
+              body(),
+              footer()
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Container footer() {
+    return Container(
+                color: Colors.blue,
+                padding: const EdgeInsets.fromLTRB(160, 30, 160, 30),
+                //margin:const EdgeInsets.fromLTRB(20,0,20,30),
+                child: const Text(
+                  "Log out",
+                  style: TextStyle(color: Colors.red),
+                ));
+  }
+
+  Row header() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: const [
+        Text(
+          "Profile",
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        ),
+        Text(
+          "Edit Profile",
+          style: TextStyle(
+              color: Colors.blue, fontSize: 20, fontWeight: FontWeight.bold),
+        ),
+      ],
+    );
+  }
+
+  Widget item(IconData icon, Color color, String text) {
+    return Container(
+        margin: const EdgeInsets.all(10),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                    height: 50,
+                    width: 50,
+                    margin: const EdgeInsets.only(right: 10),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5), color: color),
+                    child: Icon(icon, color: Colors.white)),
+                Text(text, style: const TextStyle(fontWeight: FontWeight.bold)),
+              ],
+            ),
+            const Icon(Icons.chevron_right)
+          ],
+        ));
+  }
+
+  body() {
+    return Column(
+      children: [
+        item(Icons.credit_card, Colors.blue, "My Account"),
+        item(Icons.location_on_outlined, Colors.orange, "Address"),
+        item(Icons.settings_outlined, Colors.purple, "Setting"),
+        item(Icons.help_center, Colors.yellow, "Help Center"),
+        item(Icons.phone, Colors.green, "Contact"),
+      ],
+    );
+  }
+}
+
+class imageAndName extends StatelessWidget {
+   const imageAndName({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Row(
+        children: [
+          const Padding(
+            padding: EdgeInsets.all(15.0),
+            child: CircleAvatar(
+              backgroundImage: AssetImage('assets/images/pet.jpg'),
+              radius: 35,
+            ),
+          ),
+          Container(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: const [
+                Text(
+                  "Lu Sen",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Text("0866 710 981",
+                    style: TextStyle(
+                        color: Colors.grey, fontWeight: FontWeight.bold))
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

@@ -1,0 +1,113 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/src/widgets/placeholder.dart';
+
+class RegisterPage extends StatefulWidget {
+  const RegisterPage({super.key});
+
+  @override
+  State<RegisterPage> createState() => _RegisterPageState();
+}
+
+class _RegisterPageState extends State<RegisterPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        iconTheme: const IconThemeData(color: Color(0xff327708)),
+        elevation: 0,
+      ),
+      body:Container(
+        padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
+        constraints: const BoxConstraints.expand(),
+        color: Colors.white,
+        child: SingleChildScrollView(
+          child: Column(children: [
+            const SizedBox(
+              height: 80,
+            ),
+            const Padding(
+              padding: EdgeInsets.fromLTRB(0, 40, 0, 6),
+              child: Text(
+                "Đăng ký",
+                style: TextStyle(fontSize: 22, color: Colors.black),
+              ),
+            ),
+            Text(
+              "Vui lòng điền mẫu đơn đăng ký bên dưới",
+              style: TextStyle(fontSize: 16, color: Colors.black),
+            ),
+            Container(
+              child: Column(
+                children: [
+                  Text("Họ và tên",style: TextStyle(fontSize:18,color: Colors.black ),),
+                  TextField(style: TextStyle(fontSize: 18,color: Colors.black),
+                  decoration: InputDecoration(
+                    labelText: "Tên của bạn",
+                    border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(6)))
+                  ),)
+                ]),
+            ),
+            
+            Padding(
+              padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
+              child: TextField(
+                style: TextStyle(fontSize: 18, color: Colors.black),
+                decoration: InputDecoration(
+                    labelText: "Tên tài khoản",
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black, width: 1),
+                        borderRadius: BorderRadius.all(Radius.circular(6)))),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
+              child: TextField(
+                style: TextStyle(fontSize: 18, color: Colors.black),
+                decoration: InputDecoration(
+                    labelText: "Ngày sinh",
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black, width: 1),
+                        borderRadius: BorderRadius.all(Radius.circular(6)))),
+              ),
+            ),
+                Padding(
+              padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
+              child: TextField(
+                style: TextStyle(fontSize: 18, color: Colors.black),
+                decoration: InputDecoration(
+                    labelText: "Giới tính",
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black, width: 1),
+                        borderRadius: BorderRadius.all(Radius.circular(6)))),
+              ),
+            ),
+              Padding(
+              padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
+              child: TextField(
+                style: TextStyle(fontSize: 18, color: Colors.black),
+                decoration: InputDecoration(
+                    labelText: "Số điện thoại",
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black, width: 1),
+                        borderRadius: BorderRadius.all(Radius.circular(6)))),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
+              child: TextField(
+                style: TextStyle(fontSize: 18, color: Colors.black),
+                decoration: InputDecoration(
+                    labelText: "Địa chỉ",
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black, width: 1),
+                        borderRadius: BorderRadius.all(Radius.circular(6)))),
+              ),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
+}

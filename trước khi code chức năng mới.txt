@@ -1,0 +1,6 @@
+trước khi code chức năng mới
+// git pull là lấy code từ nhánh về foder
+git pull master // pull xong rồi code thì code
+git checkout -b nhanhmoi,
+-- code-- 
+--push--

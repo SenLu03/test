@@ -1,0 +1,95 @@
+unit 1:
+*Majors in IT:
+-Computer science:KHMT
+-Software engineering:KTPM
+-Information system:HTTT
+-Information technology:CNTT
+-Multimedia technology:CN đa phuong tien
+-Communications and computer networks:Truyền thông và mạng mt
+ *Words and phrases related IT majors
+-Data processing:Xử lý dữ liệu
+-Code<n>: mã
+-Code<v>: viết mã
+-Encode:Mã hóa
+-Decode: giải mã
+-Encode:Mã hóa
+-Convert:Chuyển đổi
+-Transmit:Truyền phát
+-Retrieve:lấy, gọi ra(thông tin)
+-Information security:An toàn thông tin
+-Technical support: Hỗ trợ kỹ thuật
+-Quality insurance:Đảm bảo chất lượng
+-Workload:Khối lượng CV
+-Portable(adj):Có thể mang theo, xách tay
+-Data transfer:Truyền dữ liệu
+-Mainframe:Máy tính lớn(máy chủ)
+-Server:Máy chủ
+-Workstation:Máy trạm
+-Input devices:Thiết bị đầu vào
+-Output devices:Thiết bị đầu ra
+-Storage devices:Thiết bị lưu trữ
+-Software:Phần mềm
+-Application software:Phần mềm ứng dụng
+-Hardware:Phần cứng
+-System software:Phần mềm hệ thống
+-Programming software:Phần mềm lập trình
+-Image and graphic design:Thiết kế đồ họa và hình ảnh
+-Web development:Phát triển mạng
+-Web administration:Quản trị mạng
+-Word processing:Xử lý văn bản
+-Network card:Card mạng
+-IP(internet protocol) address:Địa chỉ IP
+-Ping test:Kiểm tra đường truyền mạng
+-Set up: Sắp xếp
+-Perform:Thực hiện
+*IT jobs
+-Software developer/Software engineer:Kỹ sư phần mềm
+-Hardware engineer:Kỹ sư phần cứng
+-Support technician(helpdesk technician):Kỹ thuật viên hỗ trợ
+-Web designer/developer: Thiết kế trang mạng
+-Webmaster:Quản trị trang mạng
+-Network administrator:Quản trị hệ thống mạng
+-Database administrator:Người quản trị dữ liệu
+-Helpdesk supervisor: Giam sát đội kỹ thuật
+-Project  manager:Quản lý dự án
+-System analyst:Nhà phân tích hệ thống.
+-Tester:Người kiểm thử phần mềm
+-Computer security specialist: Chuyên gia bảo mật máy tính
+-App designer:Thiết kế ứng dụng
+-Graphic artist:Thiết kế đồ họa
+-digital photographer:Nhiếp ảnh gia kỹ thuật số
+-production assistant:Trợ lý sản xuất
+-instructional designer:Tư vấn thiết kế
+
+
+
+Unit 2:
+*Components inside a computer case:
+-Processor:Bộ xử lý
+-Power supply:Bộ cấp nguồn
+-Hard drive/hard disk:ổ cứng/ đĩa cứng
+-System fan:Quạt làm mát
+-Optical drive: ổ đĩa quang
+-Motherboard:Bảng mạch chính
+-RAM modules:Bộ nhớ
+-Heat sink:Bộ tản nhiệt
+
+*Words related to features of CPU and main
+-CPU(central processing Unit):Bộ xử lý trung tâm
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

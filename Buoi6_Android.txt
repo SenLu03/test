@@ -1,0 +1,14 @@
+-Tạo RecycleView 
+-Tạo 1 item
+-Tạo 1 cái Adapter
+    + Tham số truyền vào( có thể có hoặc không)
+    + Extends lại RecycleView:ViewHolder
+    + Tạo 1 class exten lại RecycleViewHolder
+    +Di con trỏ vào:implenment members
+-class mới khỏi tạo: khoi tạo các biến
+-getItemCount:so luong 
+//oncreat: hinh dang khuan, view do hinh gi
+//oncratviewbulder: lam khuon va do nguyen lieu: adapter lam nv, do du lieu, 
+cac thanh phan 
+
+//adapter:chuyeen du lieu

@@ -1,0 +1,19 @@
+*Nếu tài khoản githup chưa kết nối vs máy của mình thì thực hiện 2 lệnh dưới đây
+git config --global user.name "<tên githup>"
+ git config --global user.email <tên email>
+git config--list
+
+*Khi kết nối xong vs máy tính
+Thực hiện kết nối thư mục vs thư mục trên githup
+- git init(liên kết git ở máy tính vs trang githup)
+-git remote add origin https://github.com/SenLu03/demo.git( kết nối đến repo trên hithup)
+( Kiểm tra xem kết nối hay chưa: git remote -v)
+-git add . ( đẩy toàn bộ code lên git)
+-git commit -m "First commit"
+-git push origin master
+
+*Cách khác:
+- Kéo thả file trực tiếp trên githup
+-git clone repo về máy:
+vd: git clone https://github.com/SenLu03/demo.git
+
